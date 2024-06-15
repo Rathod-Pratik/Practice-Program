@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html,.main{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+    overflow: hidden;
+}
+.main{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* position: absolute; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cursor {
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    background: url('cursor.png') no-repeat center center;
+    background-size: contain; 
+    pointer-events: none; 
+  }
+h1{
+    color: white;
+    font-size: 8rem;
+}
